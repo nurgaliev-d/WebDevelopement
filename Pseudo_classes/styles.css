@@ -1,0 +1,48 @@
+.btn {
+    color: black;
+}
+
+.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.btn:focus {
+    border-color: blueviolet;
+}
+
+.list_item {
+    list-style: none;
+}
+
+.list_item:first-child:hover {
+    color: red;
+    background-color: aqua;
+}
+
+.list_item:last-child {
+    background-color: aquamarine;
+}
+
+.links {
+    color: blue;
+}
+
+.links:hover {
+    color: brown;
+    background-color: aqua;
+}
+
+.input:focus {
+    background-color: brown;
+    color: white;
+}
+
+.blocks:first-child {
+    background-color: cornflowerblue;
+}
+
+.blocks:last-child:hover {
+    background-color: bisque;
+    color:red
+}
