@@ -1,0 +1,34 @@
+body {
+    background-color: #f0f0f0;
+}
+
+p {
+    color: cyan;
+    background-color: black;
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}
+
+#mainHeader {
+    color: red;
+}
+
+div {
+    border: 2px solid black;
+}
+
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+.important {
+    color: coral;
+}
+/* Order matters. Last design will be applyed to the element. Program does not crash
