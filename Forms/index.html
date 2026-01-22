@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <fieldset><!--Grouping all elements-->
+        <legend>Fill information about you</legend><!--Caption for fieldset-->
+        <form action="/submit" method="post"></form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><!--form for Name -->
+
+        <form action="/submit" method="post"></form>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><!--form for Email -->
+
+        <form action="/submit" method="post"></form>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required><br><br><!--form for Password -->
+
+        <label for="/submit">Comments:</label>
+        <textarea name="comments" id="comments" rows="5" cols="50"></textarea><br><br><!--Textarea for comments-->
+
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="">Select your country</option>
+            <option value="kz">Kazakhstan</option>
+            <option value="us">USA</option>
+            <option value="uk">UK</option>
+            <option value="ua">Ukraine</option>
+            <option value="cn">China</option>
+        </select><br><br><!--Country selection element-->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button><!--Buttons for sibmit and reset data-->
+    </fieldset>
+</body>
+
+</html>
