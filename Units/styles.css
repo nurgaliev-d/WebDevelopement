@@ -1,0 +1,49 @@
+.parentDiv {
+    width: 500px;
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.childDiv {
+    width: 50%;
+    height: 50%;
+    background-color: bisque;
+}/*Child div with 0.5x size of parent*/
+
+.parentP {
+    font-size: 20px;
+    color: blue;
+}
+
+.childP {
+    font-size: 2em;
+    color: red;
+}/*Child div with 2x size of parent(uses root size)*/
+
+html {
+    font-size: 16px;
+}
+
+.forRoot {
+    font-size: 3rem;
+}/*Changing font size using rem*/
+
+.image {
+    background-image: url(./nature2.jpg);
+    margin: 100px;
+    width: 400px;
+    height: 300px;
+    border: 67px solid rgb(25, 130, 250);/*using RBG*/
+}
+
+.text {
+    color: #d40d0d;/*using HEX*/
+}
+
+.text2 {
+    color: rgba(120, 133, 20, 0.6);/*Using RGBA*/
+}
+
+body {
+    background-color: #f0f0f0;/*using HEX*/
+}
