@@ -28,7 +28,13 @@ h1 {
     color: blueviolet;
 }
 
+#first-list {
+    color: red;
+}
+
 .important {
     color: coral;
 }
-/* Order matters. Last design will be applyed to the element. Program does not crash
+/* Order matters. Last design will be applyed to the element. Program does not crash.
+Id has higher priotity that class*/
+
