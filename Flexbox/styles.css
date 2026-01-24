@@ -1,0 +1,150 @@
+.block-div {
+    display: block;
+    background-color: aqua;
+}
+
+.inline-div {
+    display: inline;
+    background-color: rgb(31, 17, 221);
+}
+
+.flex-div {
+    display: flex;
+    background-color: rgb(151, 14, 206);
+}
+
+/*Flex and block divs are looks like blocks, and inline is inline*/
+
+.container {
+    display: flex;
+    border: 3px solid blueviolet;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+.image {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid cyan;
+    align-items: center;
+}
+
+.flex-container button {
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 50px;
+}
+
+.flex-container div {
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30px;
+}
+
+.flex-container h2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 20px;
+}
+
+.task6-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn1 {
+    flex: 0 0 50%;
+}
+
+#btn2 {
+    flex: 1 1 50%;
+}
+
+#btn3 {
+    flex-basis: 100px;
+}
+
+.task7-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu-list li:hover {
+    color: aqua;
+}
+
+.task8-container {
+    display: flex;
+    border: 2px solid black;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.img0 {
+    width: 350px;
+    height: 350px;
+    background-color: burlywood;
+    border: 5px solid violet;
+    border-radius: 16px;
+    flex: 0 1 350px;
+}
+
+.img1 {
+    width: 350px;
+    height: 350px;
+    background-color: burlywood;
+    border: 5px solid violet;
+    border-radius: 16px;
+    flex: 0 1 350px;
+}
+
+.img2 {
+    width: 350px;
+    height: 350px;
+    background-color: burlywood;
+    border: 5px solid violet;
+    border-radius: 16px;
+    flex: 0 1 350px;
+}
+
+.img3 {
+    width: 350px;
+    height: 350px;
+    background-color: burlywood;
+    border: 5px solid violet;
+    border-radius: 16px;
+    flex: 0 1 350px;
+}
+
+.img4 {
+    width: 350px;
+    height: 350px;
+    background-color: burlywood;
+    border: 5px solid violet;
+    border-radius: 16px;
+    flex: 0 1 350px;
+}
+
+.task8-container div {
+    margin: 20px;
+}
