@@ -44,5 +44,49 @@ nav {
 
 .hero {
     display: flex;
+    justify-content: space-between;
     padding: 50px;
+}
+
+.image {
+    width: 650px;
+    height: 873.4375px;
+}
+
+.content {
+    max-width: 530px;
+}
+
+.content h2 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+    margin-top: 300px;
+    margin-bottom: 74px;
+}
+
+.content h2 span {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.platforms {
+    justify-content: space-between;
+    gap: 17px;
+    margin-top: 16px;
+    /* width: 245px;
+    height: 32px; */
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+    margin-right: 17px;
 }

@@ -1,0 +1,94 @@
+.static-div {
+    border: 2px solid red;
+    position: static;
+    top: 60px;
+}
+
+/*Top, left, right, bottom has no effect to static elements*/
+
+.relative-div {
+    border: 2px solid blueviolet;
+    position: relative;
+    top: 30px;
+    left: 55px;
+}
+
+/*Top, left, right, bottom affects to static elements*/
+
+.container {
+    position: relative;
+    border: 2px solid blueviolet;
+}
+
+.container p {
+    position: absolute;
+    /*position: absolute removes element from normal flow*/
+    top: 15px;
+    left: 65px;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    background-color: gray;
+    text-align: center;
+}
+
+.fixed-block {
+    position: fixed;/*Made fixed button, element stays on position while scrolling*/
+    bottom: 50px;
+    right: 50px;
+}
+
+.fixed-block button {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(91, 219, 91);
+    color: white;
+}
+
+.fixed-block button:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.fixed-block button:focus {
+    background-color: #3ebbd1;
+    color: black;
+}
+
+h1 {
+    height: 2000px;
+}
+
+.sticky-header {
+    position: sticky;/*Made header that sticks to the top*/
+    top: 0px;
+    z-index: 10;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    border: 2px solid gray;
+    border-radius: 16px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(158, 6, 113);
+}
+
+.menu-list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.menu-list a {
+    text-decoration: none;
+}
