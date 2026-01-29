@@ -1,0 +1,267 @@
+body {
+    /* display: flex; */
+    margin-top: 50px;
+    background-color: gray;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 53px;
+    padding: 40px;
+    border-radius: 32px;
+}
+
+.badge {
+    background-color: rgba(25, 25, 25, 1);
+    color: #fff;
+    width: fit-content;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 0px 16px;
+    margin-bottom: 48.44px;
+}
+
+.episode {
+    color: rgba(17, 141, 168, 1);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 17.56px;
+}
+
+.title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+    margin-bottom: 28px;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 18px;
+}
+
+.btn {
+    width: 208px;
+    height: 51px;
+    background-color: rgba(17, 141, 168, 1);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    padding: 12px 20px 12px 15px;
+}
+
+.card-block {
+    display: flex;
+    flex-flow: column;
+}
+
+.card2 {
+    display: flex;
+    flex-flow: column;
+    background-color: rgba(225, 237, 230, 1);
+    width: fit-content;
+    padding: 20px 20px 30px 20px;
+}
+
+.card2 img {
+    margin-bottom: 20px;
+}
+
+.author {
+    color: rgba(134, 146, 139, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    padding-bottom: 10px;
+}
+
+.title2 {
+    color: rgba(44, 45, 53, 1);
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.subtitle2 {
+    color: rgba(44, 45, 53, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 30px;
+}
+
+.price {
+    color: rgba(89, 141, 102, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
+
+.btn2 {
+    color: rgba(89, 141, 102, 1);
+    border: 1px solid rgba(89, 141, 102, 1);
+    height: 65px;
+    padding: 21px 106px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    background-color: transparent;
+}
+
+.card3 {
+    display: flex;
+    flex-flow: column;
+    width: 360px;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+}
+
+.title3 {
+    color: rgba(0, 154, 240, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 16px;
+    letter-spacing: 1.2%;
+}
+
+.subtitle3 {
+    color: rgba(32, 40, 66, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 1.2%;
+    padding: 0px 16px 16px 16px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+.avatar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.name {
+    color: rgba(32, 40, 66, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0px;
+}
+
+.date {
+    color: rgba(30, 30, 30, 0.5);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    margin: 0px;
+}
+
+.personInfo {
+    display: flex;
+    flex-flow: column;
+}
+
+.btn3 {
+    background-color: rgba(0, 154, 240, 1);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 1.2%;
+}
+
+.card4 {
+    background-color: #fff;
+    border-radius: 10px;
+    width: fit-content;
+    display: flex;
+    flex-flow: column;
+}
+
+.content4 {
+    display: flex;
+    flex-flow: column;
+    padding: 50px 44px;
+    gap: 24px;
+}
+
+.texts {
+    display: flex;
+    flex-flow: column;
+    gap: 12px;
+}
+
+.title4 {
+    color: rgba(46, 54, 62, 1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%;
+}
+
+.subtitle4 {
+    color: rgba(46, 54, 62, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+.order {
+    display: flex;
+    flex-flow: column;
+    gap: 14px;
+}
+
+.price4 {
+    color: rgba(67, 75, 83, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.btn4 {
+    width: 163px;
+    height: 68px;
+    padding: 20px 40px;
+    background-color: rgba(254, 216, 76, 1);
+    color: rgba(46, 54, 62, 1);
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+}
