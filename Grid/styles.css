@@ -1,0 +1,73 @@
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container header {
+    color: rgba(46, 54, 62, 1);
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 80px;
+}
+
+.content {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 582px 582px 582px;
+    padding: 0px 370px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    border: 1px solid rgba(242, 246, 250, 1);
+}
+
+.card img {
+    margin-bottom: 50px;
+}
+
+.info {
+    display: flex;
+    flex-flow: column;
+    padding-left: 44px;
+}
+
+.info h2 {
+    color: rgba(46, 54, 62, 1);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%;
+    margin-bottom: 12px;
+}
+
+.info p {
+    color: rgba(46, 54, 62, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.price {
+    color: rgba(67, 75, 83, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    margin-bottom: 12px;
+}
+
+.btn {
+    width: 163px;
+    height: 68px;
+    background-color: rgba(254, 216, 76, 1);
+    color: rgba(46, 54, 62, 1);
+    border: none;
+    border-radius: 8px;
+    padding: 20px 40px;
+}
