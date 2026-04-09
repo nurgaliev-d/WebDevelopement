@@ -16,9 +16,8 @@
 
 .content {
     display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
     gap: 20px;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 582px 582px 582px;
     padding: 0px 370px;
 }
 
@@ -26,6 +25,8 @@
     display: flex;
     flex-flow: column;
     border: 1px solid rgba(242, 246, 250, 1);
+    border-radius: 6px;
+    box-shadow: 2px rgba(194, 198, 208, 0.06);
 }
 
 .card img {
@@ -70,4 +71,6 @@
     border: none;
     border-radius: 8px;
     padding: 20px 40px;
+    font-size: 18px;
+    margin-bottom: 50px;
 }
