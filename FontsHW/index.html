@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подключение шрифтов</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: 'MyLocalFont';
+            src: url('../FontsHW/fonts/static/OpenSans-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px;
+            background: #f7f7f7;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        }
+
+        h1,
+        h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            color: #1f4b99;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            font-size: 28px;
+        }
+
+        p {
+            font-family: 'MyLocalFont', Arial, sans-serif;
+            font-size: 18px;
+            margin-bottom: 16px;
+        }
+
+        .note {
+            background: #eef5ff;
+            padding: 15px;
+            border-left: 4px solid #1f4b99;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Подключение шрифтов в HTML</h1>
+        <p>
+            Это пример страницы, где используются шрифты из разных источников:
+            Google Fonts для заголовков и локальный шрифт для основного текста.
+        </p>
+
+        <h2>Google Fonts для заголовков</h2>
+        <p>
+            Заголовки используют внешний шрифт Playfair Display, который загружается
+            через тег link из Google Fonts.
+        </p>
+
+        <h2>Локальный шрифт для текста</h2>
+        <p>
+            Основной текст использует локальный шрифт через правило @font-face.
+            Это позволяет подключать собственные файлы шрифтов.
+        </p>
+
+        <div class="note">
+            <p>
+                В CSS указаны альтернативные шрифты через запятую.
+                Если основной шрифт недоступен, браузер автоматически выберет следующий.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
