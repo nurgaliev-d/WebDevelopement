@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+/* Task 1 */
+
+.shadow1 {
+    box-shadow: 5px 5px 10px gray;
+}
+
+.shadow2 {
+    box-shadow: 10px 10px 20px rgba(0, 0, 255, 0.4);
+}
+
+.shadow3 {
+    box-shadow: -5px 5px 15px rgba(255, 0, 0, 0.5);
+}
+
+/* Task 2 */
+
+.text1 {
+    text-shadow: 2px 2px 3px gray;
+}
+
+.text2 {
+    text-shadow: 4px 4px 6px blue;
+}
+
+.text3 {
+    text-shadow: -2px 2px 5px red;
+}
+
+/* Task 3 */
+
+.gradient {
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.linear1 {
+    background: linear-gradient(to right, red, orange, yellow);
+}
+
+.linear2 {
+    background: linear-gradient(to bottom, blue, cyan, white);
+}
+
+.linear3 {
+    background: linear-gradient(45deg, purple, pink, white);
+}
+
+/* Task 4 */
+
+.radial1 {
+    background: radial-gradient(circle, yellow, orange, red);
+}
+
+.radial2 {
+    background: radial-gradient(ellipse, black, white, black);
+}
