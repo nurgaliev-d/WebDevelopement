@@ -1,0 +1,106 @@
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #f4f4f4;
+        margin: 20px;
+    }
+
+    section {
+        margin: 40px 0;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .box {
+        width: 120px;
+        height: 120px;
+        background: steelblue;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+
+    /* Task 1 */
+
+    /* rotate - turns element */
+    .rotate {
+        transform: rotate(25deg);
+    }
+
+    /* scale - changes size */
+    .scale {
+        transform: scale(1.3);
+    }
+
+    /* translate - moves element */
+    .translate {
+        transform: translate(30px, 15px);
+    }
+
+    /* skew - tilts element */
+    .skew {
+        transform: skew(20deg, 10deg);
+    }
+
+    /* Task 2 */
+
+    .transition-box {
+        width: 150px;
+        height: 150px;
+        background: tomato;
+        margin: 20px auto;
+        border-radius: 10px;
+
+        /* smooth effect */
+        transition: transform 0.8s;
+    }
+
+    .transition-box:hover {
+        /* zoom + rotate */
+        transform: scale(0.8) rotate(15deg);
+    }
+
+    /* Task 3 */
+
+    .animation-box {
+        width: 120px;
+        height: 120px;
+        background: mediumseagreen;
+        margin: 30px auto;
+        border-radius: 10px;
+
+        /* start animation */
+        animation: moveBox 4s 1s infinite;
+    }
+
+    /* animation steps */
+    @keyframes moveBox {
+        0% {
+            transform: translateX(0);
+        }
+
+        25% {
+            transform: translateX(100px);
+        }
+
+        50% {
+            transform: scale(1.4);
+        }
+
+        75% {
+            transform: translateX(-100px);
+        }
+
+        100% {
+            transform: translateX(0);
+        }
+    }
