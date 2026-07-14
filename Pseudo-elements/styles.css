@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* Task 1 */
+
+/* before - adds content before */
+p::before {
+    content: "Note: ";
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Task 2 */
+
+/* after - adds content after */
+h1::after,
+h2::after {
+    content: " ★";
+    color: gold;
+    font-size: 24px;
+}
+
+/* Task 3 */
+
+.box {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* before - top line */
+.box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 4px;
+    background: crimson;
+}
+
+/* after - bottom line */
+.box::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    height: 4px;
+    background: royalblue;
+}
