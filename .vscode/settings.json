@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
         "nums"
-    ]
+    ],
+    "chat.byokUtilityModelDefault": "mainAgent"
 }
